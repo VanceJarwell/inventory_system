@@ -29,8 +29,6 @@
 			el:"#app",
 			data:{
 				quantity:"",
-				cost:"",
-
 			},
 		})
 </script>

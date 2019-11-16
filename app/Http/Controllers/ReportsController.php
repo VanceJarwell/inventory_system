@@ -25,6 +25,6 @@ class ReportsController extends Controller
 		$worksheet->getCell('A8')->setValue('11-B');
 		$writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xls');
 		$writer->save('form138.xls');
-		return response()->download('Form.xls');
+		return response()->download('Form138.xls');
     }
 }
